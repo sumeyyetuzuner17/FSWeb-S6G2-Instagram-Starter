@@ -17,13 +17,13 @@ console.log(props);
         key='likes-icons-container'
       >
         <div className='like-section-wrapper'>
-          <FontAwesomeIcon icon={faHeart} />
+          <FontAwesomeIcon icon={faHeart} onclick={gonderiyiBegen}/>
         </div>
         <div className='like-section-wrapper'>
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className='like-number'>{begeniSayisi}</p>
+      <p className='like-number'>{begeniSayisi} likes</p>
     </div>
   );
 };
